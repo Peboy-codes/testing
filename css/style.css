@@ -14,17 +14,8 @@
   height: 9.6rem;
   padding: 0 4.8rem;
   
-  /*Changes made for JavaScript*/
-  width: 100%;
-  z-index: 2;
-  transition: transform 1s, opacity 1s;
 }
 
-
-/*Changes made for JavaScript*/
-.header.sticky {
-  position: fixed;
-}
 
 .logo {
   height: 2.2rem;
@@ -583,13 +574,3 @@ cta-form input::placeholder {
   outline-offset: 8px;*/
   box-shadow: 0 0 0 .8rem rgba(253, 242, 233, 0.5);
 }
-
-.section {
-  transition: transform 1s, opacity 1s;
-}
-
-.section-hidden {
-  opacity: 0;
-  transform: translateY(8rem);
-}
-
